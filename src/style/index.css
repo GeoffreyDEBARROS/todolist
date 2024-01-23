@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+* body {
+  font-family: "Montserrat", sans-serif;
+  background: #f9f9f9;
+  color: #3c3c3a;
+}
+* body .home .title {
+  text-align: center;
+  margin-top: 40px;
+}
+* body .home .title h1 {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+* body .home .input-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+* body .home .input-container input {
+  height: 35px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 8px 0 0 8px;
+  border: 1px solid #3c3c3a;
+}
+* body .home .input-container input:focus {
+  outline: none;
+  border: 1px solid rgba(93, 141, 141, 0.6941176471);
+}
+* body .home .input-container button {
+  padding: 10px;
+  height: 35px;
+  border-radius: 0 8px 8px 0;
+  border: 1px solid #3c3c3a;
+  background: rgba(93, 141, 141, 0.6941176471);
+}
+* body .home .task-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+* body .home .task-container ul {
+  width: 90%;
+  max-width: 450px;
+}
+* body .home .task-container ul li {
+  margin-top: 20px;
+  padding: 8px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(93, 141, 141, 0.6941176471);
+}
+* body .home .task-container ul .btn-container button {
+  padding: 5px;
+  border: 1px solid #3c3c3a;
+}
+* body .home .task-container ul .btn-container #delete-task {
+  border-radius: 0 8px 8px 0;
+  background: rgba(187, 53, 53, 0.652);
+}/*# sourceMappingURL=index.css.map */
